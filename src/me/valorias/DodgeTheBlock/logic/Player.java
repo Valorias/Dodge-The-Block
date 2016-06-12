@@ -30,4 +30,8 @@ public class Player {
 		return this.y;
 	}
 	
+	public int getColor(){
+		return color
+	}
+	
 }
