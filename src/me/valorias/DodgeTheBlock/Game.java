@@ -133,8 +133,8 @@ public class Game extends Canvas implements Runnable {
 		}
 		screen.clear();
 		
-		{
-			screen.render(player.getX(),player.getY(), player.color);
+		{ // Rendering objects
+			screen.render(player.getX(),player.getY(), player.getColor());
 			for(int i = 0; i < enemyNum; i++){
 				screen.render(enemy[i].getX(), enemy[i].getY(), enemy[i].getColor());
 			}
