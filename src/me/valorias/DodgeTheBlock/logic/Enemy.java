@@ -6,8 +6,8 @@ import me.valorias.DodgeTheBlock.Game;
 
 public class Enemy {
 	private int x, y;
-	public int xSpeed =1, ySpeed = 2;
-	public int color = 0xff0000;
+	private int xSpeed =1, ySpeed = 2;
+	private int color = 0xff0000;
 	private int topSpeed = 2;
 	
 	
