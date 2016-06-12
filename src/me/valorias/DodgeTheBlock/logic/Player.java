@@ -4,7 +4,7 @@ import me.valorias.DodgeTheBlock.Game;
 
 public class Player {
 	private int x,y;
-	public int color;
+	private int color;
 	
 	public Player(int x, int y, int color){
 		this.x = x;
